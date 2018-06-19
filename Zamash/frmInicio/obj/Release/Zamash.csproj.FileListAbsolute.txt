@@ -12,3 +12,4 @@ C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\obj\Release\Zamash.cs
 C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\obj\Release\Zamash.csproj.CopyComplete
 C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\obj\Release\frmInicio.exe
 C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\obj\Release\frmInicio.pdb
+C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\obj\Release\frmInicio.Forms.frmCadastroMusica.resources

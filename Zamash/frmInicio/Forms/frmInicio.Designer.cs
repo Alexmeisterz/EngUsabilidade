@@ -39,22 +39,27 @@
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(414, 205);
+            this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCadastrar.ImageKey = "icons8-record-64.png";
+            this.btnCadastrar.ImageList = this.imageList1;
+            this.btnCadastrar.Location = new System.Drawing.Point(368, 228);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(150, 36);
+            this.btnCadastrar.Size = new System.Drawing.Size(150, 43);
             this.btnCadastrar.TabIndex = 3;
             this.btnCadastrar.Text = "Cadastrar música";
+            this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // btnPesquisar
             // 
             this.btnPesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPesquisar.ImageKey = "icons8-search-property-64.png";
             this.btnPesquisar.ImageList = this.imageList1;
-            this.btnPesquisar.Location = new System.Drawing.Point(136, 205);
+            this.btnPesquisar.Location = new System.Drawing.Point(178, 228);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Padding = new System.Windows.Forms.Padding(6, 2, 2, 2);
-            this.btnPesquisar.Size = new System.Drawing.Size(150, 36);
+            this.btnPesquisar.Size = new System.Drawing.Size(150, 43);
             this.btnPesquisar.TabIndex = 2;
             this.btnPesquisar.Text = "Pesquisar música";
             this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -67,26 +72,29 @@
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList1.Images.SetKeyName(0, "icons8-search-property-64.png");
             this.imageList1.Images.SetKeyName(1, "icons8-music-80.png");
+            this.imageList1.Images.SetKeyName(2, "icons8-record-64.png");
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(187, 48);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label1.Location = new System.Drawing.Point(164, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(319, 46);
+            this.label1.Size = new System.Drawing.Size(373, 54);
             this.label1.TabIndex = 4;
             this.label1.Text = "Seja bem-vindo!!";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(278, 125);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label2.Location = new System.Drawing.Point(175, 158);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 13);
+            this.label2.Size = new System.Drawing.Size(343, 17);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Totalmente original";
+            this.label2.Text = "Escolha o que deseja fazer nos botões abaixo";
             // 
             // frmInicio
             // 

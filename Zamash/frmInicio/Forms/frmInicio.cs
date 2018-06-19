@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using frmInicio.Forms;
+using System;
 using System.Windows.Forms;
 
 namespace frmInicio
@@ -22,8 +16,9 @@ namespace frmInicio
             new frmPesquisarMusica().ShowDialog();
         }
 
-        internal class DataSources
+        private void btnCadastrar_Click(object sender, EventArgs e)
         {
+            new frmCadastroMusica().ShowDialog();
         }
     }
 }

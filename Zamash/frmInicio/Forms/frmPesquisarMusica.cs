@@ -15,7 +15,6 @@ namespace frmInicio
         /// </summary>
         private string CampoPesquisa;
         List<Musica> musicas;
-        List<Musica> musicasEncontradas = new List<Musica>();
         ErrorProvider errors = new ErrorProvider();
 
         public frmPesquisarMusica()
@@ -52,7 +51,7 @@ namespace frmInicio
 
                         foreach (var musica in musicas)
                             if (musica.Nome.Contains(valorAPesquisar))
-                                musicasEncontradas.Add(musica);
+                                dtsMusicas1.MUSICAS.AddMUSICASRow(musica.Nome, musica.Autor, musica.Letra);
 
                         break;
 
@@ -66,9 +65,13 @@ namespace frmInicio
             else
             {
                 
-                errors.SetError(txtValorPesquisa, "Necessário informar escrever alguma coisa aqui!");
-                errors.SetError(cboPesquisarPor, "Necessário informar por qual campo devo pesquisar!");
+                errors.SetError(txtValorPesquisa, "Preciso saber pelo que procurar!");
             }
+        }
+
+        private void frmPesquisarMusica_Load(object sender, EventArgs e)
+        {
+            cboPesquisarPor.SelectedIndex = 1;
         }
     }
 }

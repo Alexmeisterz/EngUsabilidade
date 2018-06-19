@@ -51,6 +51,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dtsMusicas.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmCadastroMusica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCadastroMusica.Designer.cs">
+      <DependentUpon>frmCadastroMusica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmCadastroMusica.resx">
+      <DependentUpon>frmCadastroMusica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </EmbeddedResource>
