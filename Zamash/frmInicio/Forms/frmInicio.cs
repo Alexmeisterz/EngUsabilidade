@@ -21,5 +21,9 @@ namespace frmInicio
         {
             new frmPesquisarMusica().ShowDialog();
         }
+
+        internal class DataSources
+        {
+        }
     }
 }

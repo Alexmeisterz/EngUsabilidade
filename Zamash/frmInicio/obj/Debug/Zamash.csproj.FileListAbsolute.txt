@@ -1,7 +1,6 @@
 C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\bin\Debug\frmInicio.exe.config
 C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\bin\Debug\frmInicio.exe
 C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\bin\Debug\frmInicio.pdb
-C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\obj\Debug\Zamash.csprojResolveAssemblyReference.cache
 C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\obj\Debug\frmInicio.frmInicio.resources
 C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\obj\Debug\frmInicio.frmPesquisarMusica.resources
 C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\frmInicio\obj\Debug\frmInicio.Properties.Resources.resources

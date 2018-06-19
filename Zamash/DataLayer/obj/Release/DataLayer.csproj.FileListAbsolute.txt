@@ -1,0 +1,5 @@
+C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\DataLayer\bin\Release\DataLayer.dll
+C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\DataLayer\bin\Release\DataLayer.pdb
+C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\DataLayer\obj\Release\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\DataLayer\obj\Release\DataLayer.dll
+C:\Users\SightCode\Desktop\EngUsabilidade\Zamash\DataLayer\obj\Release\DataLayer.pdb

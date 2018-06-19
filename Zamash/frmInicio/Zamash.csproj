@@ -46,6 +46,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Musica.cs" />
+    <Compile Include="dtsMusicas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsMusicas.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +80,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="dtsMusicas.xsc">
+      <DependentUpon>dtsMusicas.xsd</DependentUpon>
+    </None>
+    <None Include="dtsMusicas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsMusicas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dtsMusicas.xss">
+      <DependentUpon>dtsMusicas.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,6 +104,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
+      <Project>{D8E66069-C2D2-4300-B067-A997C3F5B832}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

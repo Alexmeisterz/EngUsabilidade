@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtsMusicas" targetNamespace="http://tempuri.org/dtsMusicas.xsd" xmlns:mstns="http://tempuri.org/dtsMusicas.xsd" xmlns="http://tempuri.org/dtsMusicas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtsMusicas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsMusicas" msprop:Generator_UserDSName="dtsMusicas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MUSICAS" msprop:Generator_TableClassName="MUSICASDataTable" msprop:Generator_TableVarName="tableMUSICAS" msprop:Generator_RowChangedName="MUSICASRowChanged" msprop:Generator_TablePropName="MUSICAS" msprop:Generator_RowDeletingName="MUSICASRowDeleting" msprop:Generator_RowChangingName="MUSICASRowChanging" msprop:Generator_RowEvHandlerName="MUSICASRowChangeEventHandler" msprop:Generator_RowDeletedName="MUSICASRowDeleted" msprop:Generator_RowClassName="MUSICASRow" msprop:Generator_UserTableName="MUSICAS" msprop:Generator_RowEvArgName="MUSICASRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Codigo" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnCodigo" msprop:Generator_ColumnPropNameInRow="Codigo" msprop:Generator_ColumnPropNameInTable="CodigoColumn" msprop:Generator_UserColumnName="Codigo" type="xs:int" />
+              <xs:element name="Nome" msprop:Generator_ColumnVarNameInTable="columnNome" msprop:Generator_ColumnPropNameInRow="Nome" msprop:Generator_ColumnPropNameInTable="NomeColumn" msprop:Generator_UserColumnName="Nome" type="xs:string" minOccurs="0" />
+              <xs:element name="Autor" msprop:Generator_ColumnVarNameInTable="columnAutor" msprop:Generator_ColumnPropNameInRow="Autor" msprop:Generator_ColumnPropNameInTable="AutorColumn" msprop:Generator_UserColumnName="Autor" type="xs:string" minOccurs="0" />
+              <xs:element name="Letra" msprop:Generator_ColumnVarNameInTable="columnLetra" msprop:Generator_ColumnPropNameInRow="Letra" msprop:Generator_ColumnPropNameInTable="LetraColumn" msprop:Generator_UserColumnName="Letra" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MUSICAS" />
+      <xs:field xpath="mstns:Codigo" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
